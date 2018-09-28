@@ -27,7 +27,7 @@ nombre <- function (sexo = NULL, n = 1) {
   }
   
   if (sexo == 'F') {
-    return(sample(nombres_masculinos, n))
+    return(sample(nombres_femeninos, n))
   }
   
   stop('El sexo debe ser M, F o NULL')
@@ -67,7 +67,7 @@ telefono <- function (n = 1) {
   
   for (i in 1:n) {
     prim = sample(200:700, 1)
-    seg = sample(0000:9999, 1)
+    seg = sample(1000:9999, 1)
     
     tels <- append(tels, paste(prim, '-', seg, sep = ''))
   }
@@ -282,3 +282,54 @@ codigo_upc <- function (n = 1) {
   
   return(codigos) 
 }
+
+nombre(n = 3)
+nombre(sexo = 'M', n = 2)
+nombre(sexo = 'F', n = 4)
+
+apellido(2)
+apellido()
+
+direccion()
+direccion(2)
+
+telefono()
+telefono(3)
+
+
+correo(2)
+correo()
+
+fecha_hora()
+fecha_hora(n = 2)
+fecha_hora('y-m-d')
+fecha_hora('d-m-y')
+fecha_hora('y-m-d h:m:s')
+fecha_hora('d-m-y h:m:s')
+
+ip()
+ip(n = 2)
+ip(version = 'v4')
+ip(version = 'v6')
+ip(version = 'v6', n = 4)
+
+continente()
+continente(3)
+
+pais(n = 2)
+pais('Africa')
+pais('America')
+pais('Europa')
+
+idioma(n = 2)
+idioma(formato = 'completo')
+idioma(formato = 'abreviado')
+idioma(formato = 'abreviado', n = 3)
+
+rango_numerico()
+rango_numerico(n = 7)
+rango_numerico(min = 10, max = 100)
+rango_numerico(min = 100, max = 1000, tipo = "real", decimales = 4)
+
+codigo_upc()
+codigo_upc(n = 9)
