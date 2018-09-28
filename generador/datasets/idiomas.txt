@@ -1,0 +1,2 @@
+Español|Ingles|Portuges|Frances|Aleman|Ruso|Italiano|Japones|Chino
+ES|EN|PT|FR|GR|RU|IT|JP|CN

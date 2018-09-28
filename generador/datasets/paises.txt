@@ -1,0 +1,5 @@
+Africa|Sudafrica|Egipto|Marruecos|Sudan|Libia
+America|Peru|Bolivia|Argentina|Brasil|Chile|Ecuador|Venezuela|Mexico|Estados Unidos|Canada
+Asia|China|Japon|Korea|India|Pakistan|Mongolia|Afganistan|Iran
+Europa|España|Francia|Portugal|Alemania|Rusia|Italia|Belgica|Rumania
+Oceania|Australia|Nueva Zelanda
